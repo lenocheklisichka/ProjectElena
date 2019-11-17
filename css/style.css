@@ -1,0 +1,24 @@
+*@font-face {
+    font-family: "OpenSans";
+    src: url('../font/OpenSans.ttf');
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+ }
+
+a {
+  text-decoration: none;
+}
+
+.spruce {
+	background: url(../images/bg-spruce.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	max-width: 1536px;
+	height: 720px;
+}
