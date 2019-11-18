@@ -85,3 +85,76 @@ button {
 	text-align: center;
 	padding-top: 60px;
 }
+
+.page-bg {
+	width: 100%;
+	max-width: 1536px;
+	height: 400px;
+}
+
+.box-item {
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+}
+
+.icon-1 {
+	background: url(../images/icon_1.png);
+	background-repeat: no-repeat;
+	width: 43px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.icon-2 {
+	background: url(../images/icon_heart.png);
+	background-repeat: no-repeat;
+	width: 38px;
+	height: 34px;
+	margin: 0 auto;
+}
+
+.icon-3 {
+	background: url(../images/icon_3.png);
+	background-repeat: no-repeat;
+	width: 39px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+.item {
+	width: 100%;
+	max-width: 200px;
+	padding-right: 120px;
+
+}
+
+.item:last-child {
+	padding-right: 0;
+}
+
+.head {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'PTS Sans';
+	padding-top: 35px;
+}
+
+.text-item {
+	font-size: 20px;
+	line-height: 28px;
+	font-family: 'PTS Sans';
+	color: #a7a9ac; 
+	width: 225px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.hr {
+	border-bottom: 2px solid #e2e3e4;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
