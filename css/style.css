@@ -1,17 +1,24 @@
 *@font-face {
     font-family: "OpenSans";
-    src: url('../font/OpenSans.ttf');
+    src: url('../font/OpenSans.ttf , PT Sans.ttf , arial , Ubuntu.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-	padding: 0;
+	font-family: 'Open Sans', sans-serif, 'Ubuntu', 'PT Sans' ;
     box-sizing: border-box;
  }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+	margin: 0;
 }
 
 .spruce {
@@ -21,4 +28,60 @@ a {
 	width: 100%;
 	max-width: 1536px;
 	height: 720px;
+}
+
+.name {
+	background: url(../images/name.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 150px;
+	height: 61px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	color: #fff;
+	font-size: 16px;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+li {
+	padding-right: 65px;
+}
+
+li:last-child {
+	padding-right: 0;
+}
+
+h1 {
+	font-size: 70px;
+	font-family: 'Ubuntu';
+	color: #fff;
+	padding-top: 80px;
+}
+
+.theme {
+	font-size: 30px;
+	font-family: 'PTS Sans bold';
+	color: #fff;
+	padding-top: 55px;
+}
+
+button {
+	border: 1px solid #50c3af;
+	border-radius: 50px;
+	background-color: #50c3af;
+	font-size: 20px;
+    font-weight: bold;
+	color: #fff;
+	padding: 25px 50px 25px 55px;
+	margin-top: 100px;
+}
+
+.menu {
+	text-align: center;
+	padding-top: 60px;
 }
