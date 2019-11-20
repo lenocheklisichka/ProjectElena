@@ -15,6 +15,10 @@ body {
     padding: 0;
  }
 
+ /** {
+ 	border: 1px solid red;
+ }*/
+
 a {
   text-decoration: none;
 }
@@ -132,7 +136,7 @@ button:hover {
 .item {
 	width: 100%;
 	max-width: 200px;
-	padding-right: 120px;
+	padding-right: 80px;
 }
 
 .item:last-child {
@@ -249,7 +253,6 @@ button:hover {
 	font-weight: bold;
 	font-family: 'PTS Sans';
 	text-transform: uppercase;
-
 }
 
 .hr-line {
@@ -437,5 +440,75 @@ button:hover {
 	width: 50%;
 }
 
+.page-color {
+	width: 100%;
+	max-width: 1536px;
+	height: 270px;
+	background-color: #50c3af;
+}
+
+.star {
+	background: url(../images/star.png);
+	width: 17px;
+	height: 16px;
+}
+
+.this-template {
+     font-size: 15px;
+     font-weight: bold;
+     color: #fff;
+     text-transform: uppercase;
+     padding-left: 15px;
+}
+
+.lines-one {
+	width: 50%;
+	border-bottom: 2px solid #61c8b6;
+	padding-top: 27px;
+	margin: 0 auto;
+}
+
+.techCrunch {
+	background: url(../images/TechCrunch.png);
+	width: 119px;
+	height: 22px;
+}
+
+.promail {
+   background: url(../images/Promail.png);
+   width: 93px;
+   height: 22px;
+}
+
+.mashable {
+    background: url(../images/mashable.png);
+    width: 103px;
+    height: 21px;
+}
+
+.atlaspix {
+	background: url(../images/atlaspix.png);
+	width: 100px;
+	height: 25px;
+}
+
+.star-this {
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.web-site {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.box-star {
+	padding-top: 65px;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
 
 
