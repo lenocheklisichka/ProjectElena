@@ -511,4 +511,56 @@ button:hover {
 	margin: 0 auto;
 }
 
+.page-footer {
+	width: 100%;
+	max-width: 1536px;
+	height: 60px;
+}
+
+.box-footer {
+	display: flex;
+	width: 100%;
+	max-width: 600px;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 23px;
+}
+
+.copy {
+	font-size: 15px;
+	color: #bebfc2;
+}
+
+.google {
+	background: url(../images/google.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 17px;
+	padding-right: 22px;
+}
+
+.fs {
+	background: url(../images/fs.png);
+	background-repeat: no-repeat;
+	width: 8px;
+	height: 16px;
+	padding-right: 22px;
+}
+
+.twitter {
+	background: url(../images/tw.png);
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 16px;
+}
+
+.social {
+	display: flex;
+}
+
+
+
+
+
+
 
