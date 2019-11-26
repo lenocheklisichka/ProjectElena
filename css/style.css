@@ -14,8 +14,8 @@ body {
     margin: 0;
     padding: 0;
  }
-
- /** {
+/*
+ * {
  	border: 1px solid red;
  }*/
 
@@ -92,6 +92,8 @@ button:hover {
 }
 
 .menu {
+	max-width: 700px;
+	margin: 0 auto;
 	text-align: center;
 	padding-top: 60px;
 }
@@ -105,7 +107,8 @@ button:hover {
 
 .box-item {
 	display: flex;
-	justify-content: center;
+	max-width: 700px;
+	margin: 0 auto;
 	padding-top: 70px;
 }
 
@@ -134,9 +137,7 @@ button:hover {
 }
 
 .item {
-	width: 100%;
-	max-width: 200px;
-	padding-right: 80px;
+	padding-right: 50px;
 }
 
 .item:last-child {
@@ -152,12 +153,10 @@ button:hover {
 }
 
 .text-item {
-	font-size: 20px;
-	line-height: 28px;
+	font-size: 18px;
+	line-height: 25px;
 	font-family: 'PTS Sans';
 	color: #a7a9ac; 
-	width: 225px;
-	margin: 0 auto;
 	text-align: center;
 	padding-top: 35px;
 }
@@ -177,23 +176,25 @@ button:hover {
 
 .box-template {
 	display: flex;
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
 	padding-top: 75px;
-	justify-content: center;
 }
 
 .template {
-	padding-right: 95px;
-	width: 19%;
+	width: 100%;	
 }
 
-.template:last-child {
-	padding-right: 0;
-}
+ .item-template {
+    padding-right: 80px;
+ }
 
 .bg {
 	width: 100%;
 	max-width: 300px;
 	height: 190px;
+	background-repeat: no-repeat;
 }
 
 .bg-1 {
@@ -214,16 +215,14 @@ button:hover {
 
 .line {
 	border-bottom: 1px solid  #e2e3e4;
-	width: 100%;
+	width: 95%;
 	padding-top: 28px;
 }
 
 .text-template {
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 25px;
 	color: #a7a9ac;
-	width: 105%;
-	margin: 0 auto;
 	padding: 38px 0 45px 0;
 }
 
@@ -244,8 +243,9 @@ button:hover {
 }
 
 .box-lorem {
+	max-width: 650px;
+	margin: 0 auto;
 	padding-top: 75px;
-	margin-left: 25%;
 }
 
 .heading-one {
@@ -258,13 +258,12 @@ button:hover {
 .hr-line {
 	border-bottom: 1px solid #e2e3e4;
 	padding-top: 28px; 
-	width: 30%;
+	width: 90%;
 }
 
 .text-lorem {
 	font-size: 15px;
 	line-height: 26px;
-	width: 60%;
 	color: #a7a9ac;
 	padding: 35px 0 45px 0;
 }
@@ -298,15 +297,15 @@ button:hover {
 }
 
 .picture {
-	width: 100%;
-	max-width: 200px;
+	width: 200px;
 	height: 152px;
 }
 
 .box-psd {
 	display: flex;
+	max-width: 700px;
+	margin: 0 auto;
 	padding-top: 65px;
-	justify-content: center;
 }
 
 .line-one {
@@ -316,7 +315,8 @@ button:hover {
 }
 
 .text-psd {
-	width: 110%;
+	font-size: 15px;
+	line-height: 25px;
 	padding-top: 30px;
 	color: #999c9f;
 }
@@ -328,7 +328,7 @@ button:hover {
 }
 
 .Lorem-ipsum {
-	padding-right: 85px;
+	padding-right: 45px;
 	width: 100%;
 	max-width: 200px;
 } 
@@ -357,7 +357,7 @@ button:hover {
 }
 
 .block {
-	padding-right: 130px;
+	padding-right: 60px;
 }
 
 .block:last-child {
@@ -382,18 +382,19 @@ button:hover {
 }
 
 .text-ipsum {
-	width: 100%;
-	max-width: 300px;
+	width: 300px;
 	color: #787b80;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 25px;
 	padding: 30px 0 40px 0;
 }
 
 .box-teleg {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
 	display: flex;
 	padding-top: 70px;
-	justify-content: center;
 }
 
 .page {
@@ -414,7 +415,7 @@ button:hover {
 }
 
 .hr-lines {
-	width: 40%;
+	width: 95%;
 	border-bottom: 1px solid #d2d5da;
 	padding-top: 25px;
 }
@@ -422,18 +423,20 @@ button:hover {
 .text-dolor {
 	font-size: 15px;
 	line-height: 25px;
-	width: 45%;
+	width: 300px;
 	padding: 35px 0 33px 0;
 }
 
 .box-block {
 	display: flex;
-	justify-content: flex-end;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
 	padding-top: 60px;
 }
 
 .block-just {
-	padding-right: 85px;
+	padding-right: 60px;
 }
 
 .block-just-one {
