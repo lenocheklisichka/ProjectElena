@@ -14,8 +14,8 @@ body {
     margin: 0;
     padding: 0;
  }
-/*
- * {
+
+/* * {
  	border: 1px solid red;
  }*/
 
@@ -561,6 +561,71 @@ button:hover {
 	display: flex;
 }
 
+
+/*MEDIA*/
+
+@media  (max-width: 768px) {
+    h1 {
+    	font-size: 50px;
+    }
+
+	.page-bg {
+		width: 100%;
+		height: 800px;
+	}
+
+	.box-item {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.item {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 25px;
+	}
+
+	.text-item {
+		width: 35%;
+        margin: 0 auto;
+	}
+
+	.page-item {
+		width: 100%;
+		height: 900px;
+	}
+
+	.item-template {
+        padding-right: 0px;
+    }
+
+	.box-psd {
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 74%;
+	}
+
+	.ipsum {
+		padding-right: 0;
+	}
+
+	.Lorem-ipsum:last-child {
+		padding-top: 40px
+	}
+
+	.block {
+        padding: 0 20px;
+    }
+
+    .block-just {
+        padding: 0 20px;
+    }
+
+
+
+
+
+}
 
 
 
