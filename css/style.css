@@ -15,7 +15,7 @@ body {
     padding: 0;
  }
 
-/* * {
+/** {
  	border: 1px solid red;
  }*/
 
@@ -107,7 +107,7 @@ button:hover {
 
 .box-item {
 	display: flex;
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding-top: 70px;
 }
@@ -137,7 +137,7 @@ button:hover {
 }
 
 .item {
-	padding-right: 50px;
+	padding-right: 20px;
 }
 
 .item:last-child {
@@ -187,7 +187,7 @@ button:hover {
 }
 
  .item-template {
-    padding-right: 80px;
+    padding-right: 45px;
  }
 
 .bg {
@@ -382,7 +382,6 @@ button:hover {
 }
 
 .text-ipsum {
-	width: 300px;
 	color: #787b80;
 	font-size: 14px;
 	line-height: 25px;
@@ -391,7 +390,7 @@ button:hover {
 
 .box-teleg {
 	width: 100%;
-	max-width: 700px;
+	max-width: 680px;
 	margin: 0 auto;
 	display: flex;
 	padding-top: 70px;
@@ -423,7 +422,6 @@ button:hover {
 .text-dolor {
 	font-size: 15px;
 	line-height: 25px;
-	width: 300px;
 	padding: 35px 0 33px 0;
 }
 
@@ -436,7 +434,7 @@ button:hover {
 }
 
 .block-just {
-	padding-right: 60px;
+	padding-right: 40px;
 }
 
 .block-just-one {
@@ -580,7 +578,7 @@ button:hover {
 	}
 
 	.item {
-		width: 100%;
+		width: 80%;
 		margin: 0 auto;
 		padding-top: 25px;
 	}
@@ -594,15 +592,49 @@ button:hover {
 		width: 100%;
 		height: 900px;
 	}
+     
+    .heading {
+    	text-align: center;
+    }
 
-	.item-template {
-        padding-right: 0px;
+    .text-template {
+    	text-align: center;
+    }
+
+    .btn-one {
+    	position: relative;
+    	left: 30%;
+    }
+
+    .heading-one {
+    	text-align: center;
+    }
+
+    .heading-just {
+    	text-align: center;
+    }
+
+    .text-dolor {
+    	text-align: center;
+    }
+
+    .text-lorem {
+    	text-align: center;
+    }
+
+    .btn {
+    	position: relative;
+        left: 30%;
     }
 
 	.box-psd {
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 74%;
+	}
+
+	.text-psd, .check {
+		text-align: center;
 	}
 
 	.ipsum {
@@ -613,19 +645,215 @@ button:hover {
 		padding-top: 40px
 	}
 
+	.text-ipsum {
+		text-align: center;
+	}
+
+	.teleg {
+		justify-content: center;
+	}
+
 	.block {
         padding: 0 20px;
     }
+}
+
+@media  (max-width: 480px) {
+	li {
+      padding-right: 25px;
+    }
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.theme {
+		font-size: 20px;
+	}
+
+	button {
+		font-size: 15px;
+	}
+
+	.page-bg {
+		height: 900px;
+	}
+
+	.text-item {
+		width: 60%;
+	}
+
+	.item-template {
+		padding-right: 0;
+	}
+
+	.item {
+		padding-top: 30px;
+	}
+
+	.page-template-one {
+        width: 100%;
+        height: 1200px;
+	}
+
+	.box-template {
+		flex-wrap: wrap;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.template {
+		padding-top: 35px;
+	}
+
+	.box-lorem {
+		width: 80%;
+	}
+
+	.page-item {
+		width: 100%;
+		height: 1300px;
+	}
+
+	.box-psd {
+		width: 42%;
+		margin: 0 auto;
+	}
+
+	.Lorem-ipsum {
+		padding-right: 0;
+	}
+
+	.ipsum {
+		padding-top: 30px;
+	}
+
+	.page-teleg {
+		height: 650px;
+	}
+
+	.box-teleg {
+		flex-wrap: wrap;
+		width: 70%;
+	}
+
+	.block {
+		padding-top: 30px;
+	}
+
+	.page {
+		height: 630px;
+	}
+
+	.box-block {
+		flex-wrap: wrap;
+		width: 63%;
+	}
+
+	.block-just {
+        padding-right: 0;
+}
+
+	.block-just-one {
+	    width: 100%;
+	    padding-top: 30px;
+    }
+
+    .this-template {
+    	text-align: center;
+    }
+
+    .web-site {
+    	justify-content: space-around;
+    }
+
+    .box-footer {
+    	justify-content: space-around;
+    }
+}
+
+@media (max-width: 320px) {
+    ul {
+    	flex-direction: column;
+    }
+    
+    li {
+    	padding-right: 0;
+    	padding-top: 20px;
+    }
+
+	h1 {
+       font-size: 30px;
+    }
+
+    .theme {
+        font-size: 18px;
+    }
+
+    button {
+    	border-radius: 30px;
+    }
+
+	.text-item {
+        width: 70%;
+    }
+
+    .box-template {
+    	width: 80%;
+    	margin: 0 auto;
+    }
+
+    .page-template {
+    	height: 500px;
+    }
+
+    .box-psd {
+    	width: 80%;
+    }
+
+    .page-teleg {
+       height: 700px;
+    }
+
+    .box-teleg {
+    	width: 80%;
+    }
+
+    .btn-one {
+    	left: 20%;
+    }
 
     .block-just {
-        padding: 0 20px;
+    	width: 93%;
+        margin: 0 auto;
     }
+
+    .text-dolor {
+    	font-size: 14px;
+    }
+
+    .box-block {
+    	width: 100%;
+    	margin: 0 auto;
+    }
+
+    .this-template {
+    	font-size: 13px;
+    }
+
+    .web-site {
+    	flex-wrap: wrap;
+    	width: 80%;
+        margin: 0 auto;
+    }
+
 
 
 
 
 
 }
+
 
 
 
