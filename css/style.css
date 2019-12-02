@@ -15,9 +15,9 @@ body {
     padding: 0;
  }
 
-/** {
+* {
  	border: 1px solid red;
- }*/
+ }
 
 a {
   text-decoration: none;
@@ -56,10 +56,15 @@ ul {
 
 li {
 	padding-right: 65px;
+	cursor: pointer;
 }
 
 li:last-child {
 	padding-right: 0;
+}
+
+li:hover {
+    color: green;
 }
 
 h1 {
@@ -828,8 +833,19 @@ button:hover {
         margin: 0 auto;
     }
 
+    .heading-just {
+    	font-size: 16px;
+    }
+
+    .hr-lines {
+	    width: 80%;
+	    margin: 0 auto;
+	}
+
     .text-dolor {
     	font-size: 14px;
+    	width: 85%;
+        margin: 0 auto;
     }
 
     .box-block {
@@ -845,6 +861,15 @@ button:hover {
     	flex-wrap: wrap;
     	width: 80%;
         margin: 0 auto;
+    }
+
+    .mashable, .atlaspix{
+    	background-repeat: no-repeat;
+        margin-top: 12px;
+    }
+
+    .copy {
+       font-size: 13px;
     }
 
 
