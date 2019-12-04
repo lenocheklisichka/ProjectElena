@@ -13,11 +13,13 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 1536px;
  }
 
-* {
+/** {
  	border: 1px solid red;
- }
+ }*/
 
 a {
   text-decoration: none;
@@ -31,8 +33,6 @@ h1 {
 	background: url(../images/bg-spruce.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
-	max-width: 1536px;
 	height: 720px;
 }
 
@@ -104,8 +104,6 @@ button:hover {
 }
 
 .page-bg {
-	width: 100%;
-	max-width: 1536px;
 	height: 400px;
 	background-color: #eeeeef;
 }
@@ -174,8 +172,6 @@ button:hover {
 }
 
 .page-template-one {
-	width: 100%;
-	max-width: 1536px;
 	height: 650px;
 }
 
@@ -242,7 +238,6 @@ button:hover {
 }
 
 .page-template {
-	max-width: 1536px;
 	height: 420px;
 	background-color: #eeeeef;
 }
@@ -284,8 +279,6 @@ button:hover {
 }
 
 .page-item {
-	width: 100%;
-	max-width: 1536px;
 	height: 500px;
 }
 
@@ -343,8 +336,6 @@ button:hover {
 } 
 
 .page-teleg {
-	width: 100%;
-	max-width: 1536px;
 	height: 420px;
 	background-color: #eeeeef;
 }
@@ -402,8 +393,6 @@ button:hover {
 }
 
 .page {
-	width: 100%;
-	max-width: 1536px;
 	height: 370px;
 }
 
@@ -447,8 +436,6 @@ button:hover {
 }
 
 .page-color {
-	width: 100%;
-	max-width: 1536px;
 	height: 270px;
 	background-color: #50c3af;
 }
@@ -518,8 +505,6 @@ button:hover {
 }
 
 .page-footer {
-	width: 100%;
-	max-width: 1536px;
 	height: 60px;
 }
 
